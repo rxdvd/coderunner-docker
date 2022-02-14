@@ -1,7 +1,7 @@
 version: '3'
 services:
   api:
-    image: node:16.13.0
+    image: node:alpine
     environment:
       DB_CONNECTION_URI: mongodb://${DATABASE_USER}:${DATABASE_PASS}@db:27017
       DB_NAME: ${DATABASE_NAME}
@@ -15,9 +15,9 @@ services:
         source: ./server
         target: /code
     working_dir: /code
-    command: bash -c "npm i && npm run dev"
+    command: sh -c "npm i && npm run dev"
   client:
-    image: node:16.13.0
+    image: node:alpine
     ports:
       - 8000:8080
     volumes:
@@ -25,7 +25,7 @@ services:
        source: ./client
        target: /code
     working_dir: /code
-    command: bash -c "npm i && npm run dev"
+    command: sh -c "npm i && npm run dev"
   db:
     image: mongo:latest
     environment:
