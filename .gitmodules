@@ -1,0 +1,8 @@
+[submodule "client"]
+	path = client
+	url = git@github.com:rxdvd/coderunner-client.git
+	branch = dev/wailon
+[submodule "server"]
+	path = server
+	url = git@github.com:rxdvd/coderunner-server.git
+	branch = dev/mongo
