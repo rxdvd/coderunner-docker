@@ -14,3 +14,9 @@ Multi-container wrapper for the coderunner codebase using `docker-compose` and M
 * `npm run stop` to stop the application.
 * `npm run test` to run tests.
 * `npm run coverage` to check test coverage.
+
+## Note
+
+Some of the tests are not passing due to differences in architecture between the 
+deployed branches and the branches used for this repo, however everything should 
+still work.
