@@ -5,4 +5,4 @@
 [submodule "server"]
 	path = server
 	url = git@github.com:rxdvd/coderunner-server.git
-	branch = dev/mongo
+	branch = dev/postgres

@@ -1,6 +1,6 @@
 # coderunner-docker
 
-Multi-container wrapper for the coderunner codebase using `docker-compose` and MongoDB.
+Multi-container wrapper for the coderunner codebase using `docker-compose` and PostgreSQL.
 
 ## Setup & Usage
 
@@ -19,3 +19,7 @@ Multi-container wrapper for the coderunner codebase using `docker-compose` and M
 Some of the tests are not passing due to differences in architecture between the 
 deployed branches and the branches used for this repo, however everything should 
 still work.
+
+## To do
+
+* Integrate postgres into Post model
