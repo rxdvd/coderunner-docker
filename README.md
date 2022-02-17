@@ -19,7 +19,3 @@ Multi-container wrapper for the coderunner codebase using `docker-compose` and P
 Some of the tests are not passing due to differences in architecture between the 
 deployed branches and the branches used for this repo, however everything should 
 still work.
-
-## To do
-
-* Integrate postgres into Post model
