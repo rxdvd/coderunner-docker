@@ -1,6 +1,8 @@
 # coderunner-docker
 
-Multi-container wrapper for the coderunner codebase using `docker-compose` and MongoDB.
+Multi-container wrapper for the coderunner codebase using `docker-compose` and MongoDB.  
+  
+An implementation using PostgreSQL is available on the `postgres` branch.
 
 ## Setup & Usage
 
