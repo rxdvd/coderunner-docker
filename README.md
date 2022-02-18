@@ -2,7 +2,9 @@
 
 Multi-container wrapper for the coderunner codebase using `docker-compose` and MongoDB.  
   
-An implementation using PostgreSQL is available on the `postgres` branch.
+Coderunner is an anonymous journaling website for coders to share their experiences built as part of a group project week during the training course at futureproof. More information about the project can be found at the client and server repos.  
+  
+An implementation using PostgreSQL is available on the `postgres` branch.  
 
 ## Setup & Usage
 
